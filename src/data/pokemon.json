@@ -6,9 +6,9 @@
             "tipo": ["Psíquico"],
             "debilidades":["Bicho","Fantasma","Siniestro"],
             "movimientos": [
-                { "nombre": "Psíquico", "tipoDaño": "Psíquico", "tipoMov": "0" ,"daño": 900 },
+                { "nombre": "Psíquico", "tipoDaño": "Psíquico", "tipoMov": "0" ,"daño": 90 },
                 { "nombre": "Bola Sombra", "tipoDaño": "Fantasma", "tipoMov": "0" ,"daño": 80 },
-                { "nombre": "Paz Mental", "tipoDaño": "Buff", "tipoMov": "1" ,"daño": 0 },
+                { "nombre": "Puño Certero", "tipoDaño": "Lucha", "tipoMov": "0" ,"daño": 100 },
                 { "nombre": "Energibola", "tipoDaño": "Planta", "tipoMov": "0" ,"daño": 90 }
             ],
             "img": "https://img.pokemondb.net/sprites/black-white/normal/alakazam-f.png",
@@ -36,9 +36,9 @@
             "tipo": ["Agua", "Volador"],
             "debilidades":["Eléctrico","Roca"],
             "movimientos": [
-                { "nombre": "Hidrobomba", "tipoDaño": "Agua", "tipoMov": "0" ,"daño": 110 },
+                { "nombre": "Hidrobomba", "tipoDaño": "Agua", "tipoMov": "0" ,"daño": 100 },
                 { "nombre": "Rayo Hielo", "tipoDaño": "Hielo", "tipoMov": "0" ,"daño": 90 },
-                { "nombre": "Danza Dragón", "tipoDaño": "Buff", "tipoMov": "1" ,"daño": 0 },
+                { "nombre": "Hiperrayo", "tipoDaño": "Normal", "tipoMov": "0" ,"daño": 110 },
                 { "nombre": "Triturar", "tipoDaño": "Siniestro", "tipoMov": "0" ,"daño": 80 }
             ],
             "img": "https://img.pokemondb.net/sprites/black-white/normal/gyarados-f.png",
@@ -53,7 +53,7 @@
             "movimientos": [
                 { "nombre": "Terremoto", "tipoDaño": "Tierra", "tipoMov": "0" ,"daño": 100 },
                 { "nombre": "Garra Dragón", "tipoDaño": "Dragón", "tipoMov": "0" ,"daño": 80 },
-                { "nombre": "Danza Espada", "tipoDaño": "Buff", "tipoMov": "1" ,"daño": 0 },
+                { "nombre": "Golpe Aéreo", "tipoDaño": "Volador", "tipoMov": "0" ,"daño": 60 },
                 { "nombre": "Avalancha", "tipoDaño": "Roca", "tipoMov": "0" ,"daño": 75 }
             ],
             "img": "https://img.pokemondb.net/sprites/black-white/normal/garchomp-f.png",
@@ -69,7 +69,7 @@
                 { "nombre": "Cascada", "tipoDaño": "Agua", "tipoMov": "0" ,"daño": 80 },
                 { "nombre": "Cabezazo Zen", "tipoDaño": "Psíquico", "tipoMov": "0" ,"daño": 80 },
                 { "nombre": "Roca Afilada", "tipoDaño": "Roca", "tipoMov": "0" ,"daño": 100 },
-                { "nombre": "Caparazón", "tipoDaño": "Buff", "tipoMov": "2" ,"daño": 0 }
+                { "nombre": "Colmillo Hielo", "tipoDaño": "Hielo", "tipoMov": "0" ,"daño": 65 }
             ],
             "img": "https://img.pokemondb.net/sprites/sword-shield/normal/drednaw.png",
             "HP": 200,

@@ -48,10 +48,8 @@ export default function Fight(){
         const updatedEnemyTeam = [...enemyTeam];
         if(updatedEnemyTeam[currentEnemy].debilidades.includes(movimiento["tipoDaño"])){
             updatedEnemyTeam[currentEnemy].HP = Math.max(0, updatedEnemyTeam[currentEnemy].HP - movimiento["daño"]*2);
-            console.log("Debilidad");
         } else if(updatedEnemyTeam[currentEnemy].resistencias.includes(movimiento["tipoDaño"])){
             updatedEnemyTeam[currentEnemy].HP = Math.max(0, updatedEnemyTeam[currentEnemy].HP - movimiento["daño"]/2);
-            console.log("Resistencia");
         } else {
             updatedEnemyTeam[currentEnemy].HP = Math.max(0, updatedEnemyTeam[currentEnemy].HP - movimiento["daño"]);
         }
@@ -81,10 +79,8 @@ export default function Fight(){
     
         if (updatedPlayerTeam[currentPkmn]["debilidades"].map(d => d.toLowerCase()).includes(movimiento.tipoDaño.toLowerCase())) {
             updatedPlayerTeam[currentPkmn]['HP'] = Math.max(0, updatedPlayerTeam[currentPkmn]['HP'] - movimiento.daño * 2);
-            console.log("Debilidad");
         } else if (updatedPlayerTeam[currentPkmn]["resistencias"].map(r => r.toLowerCase()).includes(movimiento.tipoDaño.toLowerCase())) {
             updatedPlayerTeam[currentPkmn]['HP'] = Math.max(0, updatedPlayerTeam[currentPkmn]['HP'] - movimiento.daño / 2);
-            console.log("Resistencia");
         } else {
             updatedPlayerTeam[currentPkmn]['HP'] = Math.max(0, updatedPlayerTeam[currentPkmn]['HP'] - movimiento.daño);
         }
