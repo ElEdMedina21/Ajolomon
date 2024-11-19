@@ -1,0 +1,50 @@
+{
+    "pokemon": [
+    {
+        "nombre": "Nidoking",
+        "movimientos": [
+            { "nombre": "Terremoto", "tipoDaño": "Tierra", "daño": 100 },
+            { "nombre": "Colmillo Veneno", "tipoDaño": "Veneno", "daño": 100 },
+            { "nombre": "Rayo", "tipoDaño": "Eléctrico", "daño": 90 },
+            { "nombre": "Puño Fuego", "tipoDaño": "Fuego", "daño": 75 }
+        ],
+        "tipo": ["Veneno","Tierra"],
+        "debilidades":["Agua","Hielo","Tierra","Psíquico"],
+        "img":"https://img.pokemondb.net/sprites/diamond-pearl/normal/nidoking.png",
+        "HP": 200,
+        "resistencias": ["Eléctrico", "Lucha", "Veneno", "Bicho", "Roca", "Hada"]
+    },
+    {
+        "nombre": "Persian",
+        "movimientos": [
+            { "nombre": "Finta", "tipoDaño": "Siniestro", "daño": 60 },
+            { "nombre": "Tajo Umbrío", "tipoDaño": "Siniestro", "daño": 70 },
+            { "nombre": "Arañazo", "tipoDaño": "Normal", "daño": 40 },
+            { "nombre": "Última Baza", "tipoDaño": "Normal", "daño": 140 }
+        ],
+        "tipo": ["Normal"],
+        "debilidades":["Lucha"],
+        "img": "https://img.pokemondb.net/sprites/diamond-pearl/normal/persian.png",
+        "HP": 200,
+        "resistencias": ["Fantasma"]
+    },
+    {
+        "nombre": "Mewtwo",
+        "movimientos": [
+            { "nombre": "Psíquico", "tipoDaño": "Psíquico", "daño": 90 },
+            { "nombre": "Bola Sombra", "tipoDaño": "Fantasma", "daño": 80 },
+            { "nombre": "Rayo Hielo", "tipoDaño": "Hielo", "daño": 90 },
+            { "nombre": "Onda Certera", "tipoDaño": "Lucha", "daño": 120 },
+        "Psíquico",
+        "Bola Sombra",
+        "Rayo Hielo",
+        "Onda Certera"
+        ],
+        "tipo":["Psíquico"],
+        "debilidades":["Planta", "Fantasma", "Siniestro"],
+        "img":"https://img.pokemondb.net/sprites/diamond-pearl/normal/mewtwo.png",
+        "HP": 200,
+        "resistencias": ["Lucha", "Psíquico"]
+    }
+    ]
+}

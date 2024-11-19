@@ -1,0 +1,94 @@
+{
+    "pokemon": [
+        {
+            "nombre": "Alakazam",
+            "id": "0",
+            "tipo": ["Psíquico"],
+            "debilidades":["Bicho","Fantasma","Siniestro"],
+            "movimientos": [
+                { "nombre": "Psíquico", "tipoDaño": "Psíquico", "tipoMov": "0" ,"daño": 900 },
+                { "nombre": "Bola Sombra", "tipoDaño": "Fantasma", "tipoMov": "0" ,"daño": 80 },
+                { "nombre": "Paz Mental", "tipoDaño": "Buff", "tipoMov": "1" ,"daño": 0 },
+                { "nombre": "Energibola", "tipoDaño": "Planta", "tipoMov": "0" ,"daño": 90 }
+            ],
+            "img": "https://img.pokemondb.net/sprites/black-white/normal/alakazam-f.png",
+            "HP": 200,
+            "resistencias": ["Lucha","Psíquico"]
+        },
+        {
+            "nombre": "Luxray",
+            "id": "1",
+            "tipo": ["Eléctrico"],
+            "debilidades":["Tierra"],
+            "movimientos": [
+                { "nombre": "Colmillo Trueno", "tipoDaño": "Eléctrico", "tipoMov": "0" ,"daño": 65 },
+                { "nombre": "Impactrueno", "tipoDaño": "Eléctrico", "tipoMov": "0" ,"daño": 40 },
+                { "nombre": "Voltio Cruel", "tipoDaño": "Eléctrico", "tipoMov": "0" ,"daño": 120 },
+                { "nombre": "Triturar", "tipoDaño": "Siniestro", "tipoMov": "0" ,"daño": 80 }
+            ],
+            "img": "https://img.pokemondb.net/sprites/black-white/normal/luxray-f.png",
+            "HP": 200,
+            "resistencias": ["Eléctrico","Volador","Acero"]
+        },
+        {
+            "nombre": "Gyarados",
+            "id": "2",
+            "tipo": ["Agua", "Volador"],
+            "debilidades":["Eléctrico","Roca"],
+            "movimientos": [
+                { "nombre": "Hidrobomba", "tipoDaño": "Agua", "tipoMov": "0" ,"daño": 110 },
+                { "nombre": "Rayo Hielo", "tipoDaño": "Hielo", "tipoMov": "0" ,"daño": 90 },
+                { "nombre": "Danza Dragón", "tipoDaño": "Buff", "tipoMov": "1" ,"daño": 0 },
+                { "nombre": "Triturar", "tipoDaño": "Siniestro", "tipoMov": "0" ,"daño": 80 }
+            ],
+            "img": "https://img.pokemondb.net/sprites/black-white/normal/gyarados-f.png",
+            "HP": 200,
+            "resistencias": ["Fuego","Agua","Lucha","Tierra","Bicho","Acero"]
+        },
+        {
+            "nombre": "Garchomp",
+            "id": "3",
+            "tipo": ["Dragón", "Tierra"],
+            "debilidades":["Hielo","Dragón","Hada"],
+            "movimientos": [
+                { "nombre": "Terremoto", "tipoDaño": "Tierra", "tipoMov": "0" ,"daño": 100 },
+                { "nombre": "Garra Dragón", "tipoDaño": "Dragón", "tipoMov": "0" ,"daño": 80 },
+                { "nombre": "Danza Espada", "tipoDaño": "Buff", "tipoMov": "1" ,"daño": 0 },
+                { "nombre": "Avalancha", "tipoDaño": "Roca", "tipoMov": "0" ,"daño": 75 }
+            ],
+            "img": "https://img.pokemondb.net/sprites/black-white/normal/garchomp-f.png",
+            "HP": 200,
+            "resistencias": ["Fuego","Eléctrico","Veneno","Roca"]
+        },
+        {
+            "nombre": "Drednaw",
+            "id": "4",
+            "tipo": ["Agua", "Roca"],
+            "debilidades":["Eléctrico","Planta","Lucha","Tierra"],
+            "movimientos": [
+                { "nombre": "Cascada", "tipoDaño": "Agua", "tipoMov": "0" ,"daño": 80 },
+                { "nombre": "Cabezazo Zen", "tipoDaño": "Psíquico", "tipoMov": "0" ,"daño": 80 },
+                { "nombre": "Roca Afilada", "tipoDaño": "Roca", "tipoMov": "0" ,"daño": 100 },
+                { "nombre": "Caparazón", "tipoDaño": "Buff", "tipoMov": "2" ,"daño": 0 }
+            ],
+            "img": "https://img.pokemondb.net/sprites/sword-shield/normal/drednaw.png",
+            "HP": 200,
+            "resistencias": ["Normal","Fuego","Hielo","Veneno","Volador"]
+        },
+        {
+            "nombre": "Totodile",
+            "id": "5",
+            "tipo": ["Agua"],
+            "debilidades":["Eléctrico","Planta"],
+            "movimientos": [
+                { "nombre": "Pistola Agua", "tipoDaño": "Agua", "tipoMov": "0" ,"daño": 40 },
+                { "nombre": "Colmillo Hielo", "tipoDaño": "Hielo", "tipoMov": "0" ,"daño": 65 },
+                { "nombre": "Triturar", "tipoDaño": "Siniestro", "tipoMov": "0" ,"daño": 80 },
+                { "nombre": "Agua Cola", "tipoDaño": "Agua", "tipoMov": "0" ,"daño": 90 }
+            ],
+            "img": "https://img.pokemondb.net/sprites/black-white/normal/totodile.png",
+            "HP": 200,
+            "resistencias": ["Fuego","Agua","Hielo","Acero"]
+        }
+    ]
+}
